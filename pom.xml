@@ -14,6 +14,22 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
+	
+
+  
+	<distributionManagement>
+		 <repository>
+	        <id>central</id>
+	        <name>Hari-PC-releases</name>
+	        <url>http://localhost:8081/artifactory/libs-release-local</url>
+	    </repository>
+	    <snapshotRepository>
+	        <id>snapshots</id>
+	        <name>Hari-PC-snapshots</name>
+	        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
