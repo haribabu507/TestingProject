@@ -4,9 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hcl</groupId>
 	<artifactId>TestProject</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>TestingProject</name>
 	<packaging>war</packaging>
-	<version>1.0.0-BUILD-SNAPSHOT</version>
+	
 	<properties>
 		<java-version>1.6</java-version>
 		<org.springframework-version>3.1.1.RELEASE</org.springframework-version>
@@ -130,6 +131,7 @@
 		</dependency>        
 	</dependencies>
     <build>
+    	<finalName>TestProject</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
