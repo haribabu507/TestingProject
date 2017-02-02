@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="TestSuite" time="0.574" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="TestSuite" time="1.597" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="C:\Haribabu\WorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf812692529702415870.tmp"/>
+    <property name="classworlds.conf" value="C:\Haribabu\WorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5847075832767401702.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_51;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Haribabu\apache-maven-3.3.9\bin;C:\Program Files (x86)\PuTTY\;C:\Haribabu\gradle-3.3\bin;C:\Haribabu\python-3.6.0-embed-win32;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Haribabu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Haribabu\apache-maven-3.3.9\bin;C:\Haribabu\gradle-3.3\bin;C:\Haribabu\spring-tool-suite-3.8.3.RELEASE-e4.6.2-win32-x86_64\sts-bundle\sts-3.8.3.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean compile test install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,11 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.hcl.TestProject.test.HomeControllerTest" name="homeTesting" time="0.009"/>
-  <testcase classname="com.hcl.TestProject.test.HomeControllerTest" name="testHome" time="0.051"/>
-  <testcase classname="com.hcl.TestProject.test.HomeControllerTest" name="testString" time="0"/>
-  <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testClass" time="0"/>
-  <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testUpdateUser" time="0.405"/>
-  <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testUpdateUser1" time="0.108"/>
+  <testcase classname="com.hcl.TestProject.test.HomeControllerTest" name="homeTesting" time="0.115"/>
+  <testcase classname="com.hcl.TestProject.test.HomeControllerTest" name="testHome" time="0.112"/>
+  <testcase classname="com.hcl.TestProject.test.HomeControllerTest" name="testString" time="0.001"/>
+  <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testClass" time="0.004"/>
+  <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testUpdateUser" time="1.015"/>
+  <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testUpdateUser1" time="0.349"/>
   <testcase classname="com.hcl.TestProject.test.controller.UserAccessControllerTest" name="testUserService" time="0.001"/>
 </testsuite>

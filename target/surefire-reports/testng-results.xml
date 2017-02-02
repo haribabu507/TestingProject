@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="861" started-at="2017-02-02T15:17:57Z" finished-at="2017-02-02T15:17:58Z">
+  <suite name="Command line suite" duration-ms="2270" started-at="2017-02-02T17:22:25Z" finished-at="2017-02-02T17:22:27Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="861" started-at="2017-02-02T15:17:57Z" finished-at="2017-02-02T15:17:58Z">
+    <test name="Command line test" duration-ms="2270" started-at="2017-02-02T17:22:25Z" finished-at="2017-02-02T17:22:27Z">
       <class name="com.hcl.TestProject.test.HomeControllerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@3fb6a447]" name="setUp" is-config="true" duration-ms="206" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@5f2050f6]" name="setUp" is-config="true" duration-ms="619" started-at="2017-02-02T22:52:25Z" finished-at="2017-02-02T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homeTesting()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@3fb6a447]" name="homeTesting" duration-ms="7" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:57Z">
+        <test-method status="PASS" signature="homeTesting()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@5f2050f6]" name="homeTesting" duration-ms="109" started-at="2017-02-02T22:52:26Z" finished-at="2017-02-02T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeTesting -->
-        <test-method status="PASS" signature="testHome()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@3fb6a447]" name="testHome" duration-ms="55" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:57Z">
+        <test-method status="PASS" signature="testHome()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@5f2050f6]" name="testHome" duration-ms="104" started-at="2017-02-02T22:52:26Z" finished-at="2017-02-02T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHome -->
-        <test-method status="PASS" signature="testString()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@3fb6a447]" name="testString" duration-ms="0" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:57Z">
+        <test-method status="PASS" signature="testString()[pri:0, instance:com.hcl.TestProject.test.HomeControllerTest@5f2050f6]" name="testString" duration-ms="1" started-at="2017-02-02T22:52:26Z" finished-at="2017-02-02T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testString -->
       </class> <!-- com.hcl.TestProject.test.HomeControllerTest -->
       <class name="com.hcl.TestProject.test.controller.UserAccessControllerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@180bc464]" name="setUp" is-config="true" duration-ms="3" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@1a407d53]" name="setUp" is-config="true" duration-ms="20" started-at="2017-02-02T22:52:26Z" finished-at="2017-02-02T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testClass()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@180bc464]" name="testClass" duration-ms="0" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:57Z">
+        <test-method status="PASS" signature="testClass()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@1a407d53]" name="testClass" duration-ms="1" started-at="2017-02-02T22:52:26Z" finished-at="2017-02-02T22:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClass -->
-        <test-method status="PASS" signature="testUpdateUser()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@180bc464]" name="testUpdateUser" duration-ms="405" started-at="2017-02-02T20:47:57Z" finished-at="2017-02-02T20:47:58Z">
+        <test-method status="PASS" signature="testUpdateUser()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@1a407d53]" name="testUpdateUser" duration-ms="1015" started-at="2017-02-02T22:52:26Z" finished-at="2017-02-02T22:52:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser -->
-        <test-method status="PASS" signature="testUpdateUser1()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@180bc464]" name="testUpdateUser1" duration-ms="108" started-at="2017-02-02T20:47:58Z" finished-at="2017-02-02T20:47:58Z">
+        <test-method status="PASS" signature="testUpdateUser1()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@1a407d53]" name="testUpdateUser1" duration-ms="349" started-at="2017-02-02T22:52:27Z" finished-at="2017-02-02T22:52:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser1 -->
-        <test-method status="PASS" signature="testUserService()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@180bc464]" name="testUserService" duration-ms="0" started-at="2017-02-02T20:47:58Z" finished-at="2017-02-02T20:47:58Z">
+        <test-method status="PASS" signature="testUserService()[pri:0, instance:com.hcl.TestProject.test.controller.UserAccessControllerTest@1a407d53]" name="testUserService" duration-ms="1" started-at="2017-02-02T22:52:27Z" finished-at="2017-02-02T22:52:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserService -->
