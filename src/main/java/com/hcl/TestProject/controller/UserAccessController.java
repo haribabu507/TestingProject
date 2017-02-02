@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.hcl.TestProject.service.User;
@@ -33,9 +34,9 @@ public class UserAccessController {
 	}
 
 	@ResponseBody
-	@RequestMapping(value = "/updateUser/username/{username}", method = RequestMethod.POST, produces="application/json")
-	public String updateUser(@PathVariable String username) {
-		logger.info("Username {} is updating", new Object[] { username });
+	@RequestMapping(value = "/updateUser", method = RequestMethod.POST, produces="application/json")
+	public String updateUser(@RequestParam String username, @RequestParam String password) {
+		logger.info("Username {} and password {} is updating", new Object[] { username, password });
 		System.out.println(userService);
 		String ss = userService.UpdateUserDetails(username);
 		return ss;
